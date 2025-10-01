@@ -1,5 +1,17 @@
-* {
-background-image: url(/images/OIP.webp);
-background-size: cover;
-}
+body {
+      font-family: Arial, sans-serif;
+      background: url(/images/OIP.webp) no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
+    .search-container {
+      display: flex;
+      background-color: #a09e9e4b;
+      padding: 10px;
+      border-radius: 8px;
+    }
+
+    
